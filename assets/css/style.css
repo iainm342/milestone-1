@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+body {
+    
+}
+
+
+
+.nav-style {
+    background-color:  #007542;
+   
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.logo {
+    max-width: 85px;
+    max-height: 85px;
+}
