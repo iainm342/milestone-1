@@ -165,6 +165,10 @@ footer {
     margin-bottom: 30px;
 }
 
+.about-text a {
+    color: #fff;
+    text-decoration: none;
+}
 /* Regions */
 
 .card-title, .card-text {
