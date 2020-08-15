@@ -167,8 +167,9 @@ footer {
 
 .about-text a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: underline;
 }
+
 /* Regions */
 
 .card-title, .card-text {
@@ -184,3 +185,7 @@ footer {
 .card-btm {
     margin-bottom: 50px;
 }
+
+/* Producers */
+
+/* Wines */
