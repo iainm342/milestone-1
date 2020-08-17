@@ -5,7 +5,7 @@ body {
     margin: 0;
     position: relative;
     font-family: 'Mulish', sans-serif;
-    color: #fff;
+    color: #fff;;
 }
 
 /* Navbar styling */
@@ -23,6 +23,24 @@ body {
 .logo {
     max-width: 85px;
     max-height: 85px;
+}
+
+.btn-nav {
+    color: #007542;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    background-color: #fff;
+    border-color: #007542;
+    border-radius: 23px;
+    float: right;
+    height: 40px;
+    width: 125px;
+    padding: 0;
+}
+
+.btn-nav:hover {
+    background: black;
+    color: #fff;
 }
 
 /* Landing page */
@@ -68,12 +86,18 @@ body {
     background-color:  #007542;
     border-radius: 25px;
     color: #fff;
+    font-size: 1.25rem;
     font-weight: bold;
     border-radius: 23px;
     margin-top: 25px;
     height: 50px;
     width: 50%;
     padding-top: 10px;
+}
+
+.btn-title:hover {
+    background: black;
+    color: #fff;
 }
 
 /* Footer */
@@ -119,6 +143,11 @@ footer {
     height: 50px;
     width: 50%;
     padding: 0;
+}
+
+.btn-foot:hover {
+    background: black;
+    color: #fff;
 }
 
 .contact li {
@@ -188,3 +217,31 @@ footer {
 /* Producers */
 
 /* Wines */
+
+#red, #white, #spark {
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sub-text {
+    font-size: 24px;
+}
+/* Modal */
+
+.modal {
+    color: black;
+}
+
+.btn-modal {
+    color: #007542;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    background-color: #fff;
+    border-color: #007542;
+    border-radius: 23px;
+    float: right;
+    height: 50px;
+    width: 125px;
+    padding: 0;
+}

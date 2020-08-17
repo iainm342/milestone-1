@@ -41,17 +41,15 @@
                             <a class="nav-link dropdown-toggle" href="wines.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Wines</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="wines.html">Red</a>
+                            <a class="dropdown-item" href="wines.html#red">Red</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="wines.html">White</a>
+                            <a class="dropdown-item" href="wines.html#white">White</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="wines.html">Sparkling</a>
+                            <a class="dropdown-item" href="wines.html#spark">Sparkling</a>
                             </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Sign Up!</a>
-                        </li>
                     </ul>
+                    <button class="btn btn-lg btn-nav" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
                 </div>
             </div>
         </nav>
@@ -98,7 +96,7 @@
             </div>
             <div class="col-sm-4 ">
                 <p class="inline-block">
-                    <button class="btn-foot">Sign Up!</button>
+                    <button class="btn btn-lg btn-foot" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
                 </p>
             </div>
             <div class="col-sm-4 foot-style">
@@ -127,6 +125,36 @@
         </div>
     </footer>
 
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sign Up to Stay in Touch!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="repeatPassword">Repeat Password</label>
+                        <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                    </div>
+                    <button type="submit" class="btn-modal">Submit</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
    
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
