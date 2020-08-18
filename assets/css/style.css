@@ -218,8 +218,19 @@ footer {
     color: black;
 }
 
+.card-title {
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.card-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
 .card {
-    max-width: 540px;
+    margin-bottom: 50px;
     margin-top: 50px;
 }
 
@@ -227,8 +238,25 @@ footer {
     margin-bottom: 50px;
 }
 
+.card-img-region {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+
+}
+
+
 /* Producers */
 
+
+.card-img {
+    height: 179.33px;
+    width: 179.33px;
+    margin-top: 10px;
+    
+}
 /* Wines */
 
 #red, #white, #spark {
@@ -249,12 +277,18 @@ footer {
 .btn-modal {
     color: #007542;
     font-family: 'Mulish', sans-serif;
+    font-size: 1.25rem;
     font-weight: bold;
     background-color: #fff;
-    border-color: #007542;
     border-radius: 23px;
-    float: right;
+    margin-top: 25px;
     height: 50px;
-    width: 125px;
+    width: 50%;
     padding: 0;
+    float: right;
+}
+
+.btn-modal:hover {
+    background: #007542;
+    color: #fff;
 }
