@@ -83,9 +83,9 @@ body {
 }
 
 .btn-title {
-    background-color:  #007542;
+    background-color:  #fff;
     border-radius: 25px;
-    color: #fff;
+    color: #007542;
     font-size: 1.25rem;
     font-weight: bold;
     border-radius: 23px;
@@ -135,9 +135,9 @@ footer {
 .btn-foot {
     color: #007542;
     font-family: 'Mulish', sans-serif;
+    font-size: 1.25rem;
     font-weight: bold;
     background-color: #fff;
-    border-color: #007542;
     border-radius: 23px;
     margin-top: 25px;
     height: 50px;
@@ -197,6 +197,19 @@ footer {
 .about-text a {
     color: #fff;
     text-decoration: underline;
+}
+
+.btn-about {
+    color: #007542;
+    font-size: 24px;
+    font-family: 'Mulish', sans-serif;
+    background-color:#fff;
+    border-radius: 23px;
+}
+
+.btn-about:hover {
+    background: black;
+    color: #fff;
 }
 
 /* Regions */
