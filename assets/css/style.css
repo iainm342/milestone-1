@@ -105,8 +105,6 @@ body {
 footer {
     background-color: #007542;
     position: relative;
-    text-align: center;
-    padding-top: 50px;
     width:100%;
 }
 
@@ -114,12 +112,13 @@ footer {
     color: #fff;
     font-family: 'Mulish', sans-serif;
     font-size: 18px;
+    padding-top: 15px;
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+    width: 36px;
+    height: 36px;
+    padding: 16px 0;
     border-radius: 50%;
     font-size: 24px;
     line-height: 7px;
@@ -152,16 +151,11 @@ footer {
 
 .contact li {
     list-style-type: none;
-    text-align: center;
     padding-right: 20px;
 }
 
 .uppercase {
     text-transform: uppercase;
-}
-
-.text-center {
-    text-align: center;
 }
 
 .email-detail a {
@@ -216,8 +210,6 @@ footer {
 
 /* Cards */
 
-
-
 .card-title {
     font-family: "Mulish", sans-serif;
     text-transform: uppercase;
@@ -229,8 +221,6 @@ footer {
     font-family: "Poppins", sans-serif;
     font-size: 12px;
     text-align: justify;
-    
-
 }
 
 .card {
@@ -249,7 +239,9 @@ footer {
 
 /* Producers */
 
-
+.spacing {
+    padding-bottom: 15px;
+}
 
 /* Wines */
 
