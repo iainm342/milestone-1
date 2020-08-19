@@ -214,49 +214,43 @@ footer {
 
 /* Regions */
 
-.card-title, .card-text {
-    color: black;
-}
+/* Cards */
+
+
 
 .card-title {
+    font-family: "Mulish", sans-serif;
     text-transform: uppercase;
-    margin-left: 20px;
+    font-size: 24px;
+    text-align: left; 
 }
 
 .card-text {
     font-family: "Poppins", sans-serif;
     font-size: 12px;
-    margin-left: 20px;
+    text-align: justify;
+    
+
 }
 
 .card {
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-color: #007542;
+    border-width: 5px;
+    background-color: #007542;
 }
 
-.card-btm {
-    margin-bottom: 50px;
+.card-img {
+    width: 100%;
+    height: 280px;
+    display: table;
 }
-
-.card-img-region {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-
-}
-
 
 /* Producers */
 
 
-.card-img {
-    height: 179.33px;
-    width: 179.33px;
-    margin-top: 10px;
-    
-}
+
 /* Wines */
 
 #red, #white, #spark {
