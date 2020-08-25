@@ -43,8 +43,8 @@ body {
 }
 
 .btn-nav:hover {
-    background: black;
-    color: #fff;
+    background: #b9ffe0;
+    color: #555;
 }
 
 /* Landing page */
@@ -100,8 +100,8 @@ body {
 }
 
 .btn-title:hover {
-    background: black;
-    color: #fff;
+    background:#b9ffe0;
+    color: #555;
 }
 
 /* Footer */
@@ -132,7 +132,8 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: black;
+    background:#b9ffe0;
+    color: #555;
 }
 
 .btn-foot {
@@ -149,8 +150,8 @@ footer {
 }
 
 .btn-foot:hover {
-    background: black;
-    color: #fff;
+    background: #b9ffe0;
+    color: #555;
 }
 
 .contact li {
@@ -168,7 +169,7 @@ footer {
 }
 
 .email-detail a:hover {
-    color: black;
+    color:#b9ffe0;
 }
 
 .bullet {
