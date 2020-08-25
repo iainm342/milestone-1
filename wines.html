@@ -1,377 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="shortcut icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-    
-    <title>English Wine - a Reference Guide</title>
-</head>
-<body>
-    <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light nav-style">
-            
-            <div class="logo">
-                <a class="navbar-brand" href="index.html">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <link rel="shortcut icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+        <title>English Wine - a Reference Guide</title>
+    </head>
+    <body>
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light nav-style">
+                <div class="logo">
+                    <a class="navbar-brand" href="index.html">
                     <img class="d-lg-block img-fluid" src="assets/images/logo.jpg" alt=""></a>
-            </div>
-            
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <div class="navbar nav ml-auto">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="regions.html">Regions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="producers.html">Producers</a>
-                        </li>
-                        <li class="nav-item active dropdown">
-                            <a class="nav-link dropdown-toggle" href="wines.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Wines</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="wines.html#red-loc">Red</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="wines.html#white-loc">White</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="wines.html#spark-loc">Sparkling</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <div class="navbar nav ml-auto">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="regions.html">Regions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="producers.html">Producers</a>
+                            </li>
+                            <li class="nav-item active dropdown">
+                                <a class="nav-link dropdown-toggle" href="wines.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Wines</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="wines.html#red-loc">Red</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="wines.html#white-loc">White</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="wines.html#spark-loc">Sparkling</a>
+                                </div>
+                            </li>
+                            <button class="btn btn-lg btn-nav" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container-fluid bg-container-pages">
+                <div class="container">
+                    <div id="red-loc">
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                    <h2 id="red"><i class="fas fa-wine-bottle"></i> Red Wine</h2>
+                    <p class="sub-text">The main varietals, successfully, grown in England are Pinot Noir and Pinot Meunier.</p>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="row no-gutters">
+                                    <div class="col-md-5">
+                                        <img src="assets/images/syrah.jpg" class="card-img" alt="bottle of syrah wine">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">No'4 Syrah 2018 by Dom. Gaida</h5>
+                                            <p>A classic style with aromas of cooked dark berries and plums finished with cedar on the nose. The palate is rich with well-integrated oak and fine tannins leading to a long, smooth finish.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </li>
-                        <button class="btn btn-lg btn-nav" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
-                    </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="row no-gutters">
+                                    <div class="col-md-5">
+                                        <img src="assets/images/litmusred.jpg" class="card-img" alt="bottle of litmus red wine">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">2018 Red Pinot</h5>
+                                            <p>Pale cherry red with a vibrant translucency the wine displays raspberry and clove characters on the nose. The palate is light, elegant and rich, being underpinned by an earthy spiciness and a long finish. This wine will gain further complexity with further cellaring.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="row no-gutters">
+                                    <div class="col-md-5">
+                                        <img src="assets/images/redmiller.jpg" class="card-img" alt="bottle of Red Miller wine">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">The Red Miller 2018</h5>
+                                            <p>Made exclusively from beautifully ripe Pinot Meunier, usually the ‘quiet partner’ in classic sparkling blends. A short three-day fermentation on the skins, was followed by a brief time in French and American oak. With minimal filtration, the result is a delicate and aromatic red wine that is near impossible to replicate.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="row no-gutters">
+                                    <div class="col-md-5">
+                                        <img src="assets/images/balfluke.jpg" class="card-img" alt="bottle of balfour red wine">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">The Red Miller 2018</h5>
+                                            <p>Named after the Producers’ eldest son, this is one of our most popular wines. Our English Pinot Noir is made from specially selected Burgundian clones at the Hush Heath Estate and is lightly oaked using French and American barrels, imparting soft but firm tannins. Expect typical cool-climate Pinot Noir characters.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
-    
-    <main>
-		<div class="container-fluid bg-container-pages">
-			<div class="container">
-                <div id="red-loc">
-                    <br>
-                    <br>
-                    <br>
+                <div class="container">
+                    <div id="white-loc">
+                        <br>
+                        <br>
+                        <br>
+                        <h2 id="white"><i class="fas fa-wine-bottle"></i> White Wine</h2>
+                        <p class="sub-text">The main varietals, successfully, grown in England are Chardonnay, Bacchus and Seyval Blanc.</p>
+                    </div>
                 </div>
-				<h2 id="red"><i class="fas fa-wine-bottle"></i> Red Wine</h2>
-				<p class="sub-text">The main varietals, successfully, grown in England are Pinot Noir and Pinot Meunier.</p>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="card">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="assets/images/syrah.jpg" class="card-img" alt="bottle of syrah wine">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<h5 class="card-title">No'4 Syrah 2018 by Dom. Gaida</h5>
-                                        <p>A classic style with aromas of cooked dark berries and plums finished with cedar on the nose. The palate is rich with well-integrated oak and fine tannins leading to a long, smooth finish.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="card">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="assets/images/litmusred.jpg" class="card-img" alt="bottle of litmus red wine">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<h5 class="card-title">2018 Red Pinot</h5>
-                                        <p>Pale cherry red with a vibrant translucency the wine displays raspberry and clove characters on the nose. The palate is light, elegant and rich, being underpinned by an earthy spiciness and a long finish. This wine will gain further complexity with further cellaring.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="card">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="assets/images/redmiller.jpg" class="card-img" alt="bottle of Red Miller wine">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<h5 class="card-title">The Red Miller 2018</h5>
-                                        <p>Made exclusively from beautifully ripe Pinot Meunier, usually the ‘quiet partner’ in classic sparkling blends. A short three-day fermentation on the skins, was followed by a brief time in French and American oak. With minimal filtration, the result is a delicate and aromatic red wine that is near impossible to replicate.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="card">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="assets/images/balfluke.jpg" class="card-img" alt="bottle of balfour red wine">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<h5 class="card-title">The Red Miller 2018</h5>
-                                        <p>Named after the Producers’ eldest son, this is one of our most popular wines. Our English Pinot Noir is made from specially selected Burgundian clones at the Hush Heath Estate and is lightly oaked using French and American barrels, imparting soft but firm tannins. Expect typical cool-climate Pinot Noir characters.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-            </div>
-			<div class="container">
-                <div id="white-loc">
-                    <br>
-                    <br>
-                    <br>
-				<h2 id="white"><i class="fas fa-wine-bottle"></i> White Wine</h2>
-				<p class="sub-text">The main varietals, successfully, grown in England are Chardonnay, Bacchus and Seyval Blanc.</p>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="card">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="assets/images/baccres.jpg" class="card-img" alt="bottle of bacchus reserve white wine">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<h5 class="card-title">Bacchus Reserve 2017</h5>
-                                        <p>This limited production wine has intense aromas of gooseberry, nettle and melon. Tropical fruits are distinctive on the palate and balanced acidity leads to a long finish.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="card">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="assets/images/chapbacc.jpg" class="card-img" alt="bottle of chapel down bacchus white wine">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<h5 class="card-title">Bacchus 2018</h5>
-                                        <p>A crisp, refreshing highly aromatic white wine characterised by melon and peach on the nose. The palate is well balanced and has a light and delicate finish.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="card">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="assets/images/skyeblend.jpg" class="card-img" alt="bottle of skye blend white wine">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<h5 class="card-title">Balfour's Skye Blend 2018</h5>
-                                        <p>Named after the Producer’s eldest daughter; Skye, this wine is an exciting blend of Bacchus, Chardonnay and Pinot Blanc from the exceptional 2018 harvest. This wine is aromatic, crisp and intensely fruity.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="card">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="assets/images/element.jpg" class="card-img" alt="bottle of litmus element white wine">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<h5 class="card-title">2014 Element 20</h5>
-                                        <p>Complex, mature, elegant and stylish, this silky, rich, full bodied wine has a balancing acidity that will ensure that even further complexity is achieved in years to follow.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-            </div>
-			<div class="container">
-                <div id="spark-loc">
-                    <br>
-                    <br>
-                    <br>
-				<h2 id="spark"><i class="fas fa-wine-bottle"></i> Sparkling Wine</h2>
-				<p class="sub-text"> The majority of vines planted in recent years have been the traditional champagne varieties of
-					Chardonnay, Pinot Noir and Pinot Meunier, which in total represent more than 60% of all vines
-					planted in the UK (Wine Standards official figures for 2018).
-				<br>
-				<br>
-		            Most sparkling wines are made using grapes harvested in a single year (vintage) but some non-vintage (NV) are also available. Classic Cuvée designates that the wine has been made from the traditional champagne grape varieties of Chardonnay, Pinot Noir and Meunier. Blanc de Blancs indicates that only white grapes have been used, often exclusively Chardonnay.
-		        </p>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="card">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="assets/images/chaprose.jpg" class="card-img" alt="bottle of chapel down rose sparkling wine">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<h5 class="card-title">Chapel Down Rose Brut</h5>
-                                        <p>A delicate rosé with aromas of ripe strawberries and raspberries with background notes of toasty shortbread. The palate is focused and pure, its fine mousse contributing to the crisp and fresh style.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="card">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="assets/images/nyebrut.jpg" class="card-img" alt="bottle of Nyetimber sparkling wine">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<h5 class="card-title">Nyetimber Classic Cuvee</h5>
-                                        <p>The signature wine of Nyetimber is a classic blend of Chardonnay, Pinot Noir, and Pinot Meunier and is a perfect balance of elegance and intensity. The blend includes wines from all our vineyards and also from several vintages.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="card">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="assets/images/balfrose.jpg" class="card-img" alt="bottle of balfour rose sparkling wine">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<h5 class="card-title">Balfour Brut Rose 2016</h5>
-                                        <p>Hush Heath’s iconic sparkling rosé is made in small quantities at our state of the art winery in deepest Kent, the Garden of England. Palest pink with crisp English acidity, rich fruit and a refreshingly long finish. Uniquely Balfour.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="card">
-							<div class="row no-gutters">
-								<div class="col-md-5">
-									<img src="assets/images/chapbrutnv.jpg" class="card-img" alt="bottle of chapel down nv sparkling wine">
-								</div>
-								<div class="col-md-7">
-									<div class="card-body">
-										<h5 class="card-title">Chapel Down Brut NV</h5>
-                                        <p>An elegant English sparkling wine with aromas of red apple, lemongrass and freshly baked bread together with hints of strawberry and quince on the palate and fine persistent bubbles.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-            </div>
-        </div>        
-    </main>
-    
-    <footer class="container-fluid text-center text-md-center">
-        <div class="row">
-            <div class="col-md-4 col-lg-3 mx-auto mt-3 foot-style">
-                <h5 class="uppercase">Contact</h5>
-                   <ul class="list-inline email-detail bullet">
-                        <li>
-                        <p><i class="fas fa-location-arrow"></i> Unit 1, Green Park</p>
-                        </li>
-                        <li>
-                        <p> Reading, RG4 3PZ</p>
-                        </li>
-                        <li>
-                        <p>
-                        <a href="mailto:info@english-wine.co.uk"><i class="far fa-envelope"></i> info@english-wine.co.uk</a>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="row no-gutters">
+                                    <div class="col-md-5">
+                                        <img src="assets/images/baccres.jpg" class="card-img" alt="bottle of bacchus reserve white wine">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bacchus Reserve 2017</h5>
+                                            <p>This limited production wine has intense aromas of gooseberry, nettle and melon. Tropical fruits are distinctive on the palate and balanced acidity leads to a long finish.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="row no-gutters">
+                                    <div class="col-md-5">
+                                        <img src="assets/images/chapbacc.jpg" class="card-img" alt="bottle of chapel down bacchus white wine">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bacchus 2018</h5>
+                                            <p>A crisp, refreshing highly aromatic white wine characterised by melon and peach on the nose. The palate is well balanced and has a light and delicate finish.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="row no-gutters">
+                                    <div class="col-md-5">
+                                        <img src="assets/images/skyeblend.jpg" class="card-img" alt="bottle of skye blend white wine">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Balfour's Skye Blend 2018</h5>
+                                            <p>Named after the Producer’s eldest daughter; Skye, this wine is an exciting blend of Bacchus, Chardonnay and Pinot Blanc from the exceptional 2018 harvest. This wine is aromatic, crisp and intensely fruity.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="row no-gutters">
+                                    <div class="col-md-5">
+                                        <img src="assets/images/element.jpg" class="card-img" alt="bottle of litmus element white wine">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h5 class="card-title">2014 Element 20</h5>
+                                            <p>Complex, mature, elegant and stylish, this silky, rich, full bodied wine has a balancing acidity that will ensure that even further complexity is achieved in years to follow.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div id="spark-loc">
+                        <br>
+                        <br>
+                        <br>
+                        <h2 id="spark"><i class="fas fa-wine-bottle"></i> Sparkling Wine</h2>
+                        <p class="sub-text"> The majority of vines planted in recent years have been the traditional champagne varieties of
+                            Chardonnay, Pinot Noir and Pinot Meunier, which in total represent more than 60% of all vines
+                            planted in the UK (Wine Standards official figures for 2018).
+                            <br>
+                            <br>
+                            Most sparkling wines are made using grapes harvested in a single year (vintage) but some non-vintage (NV) are also available. Classic Cuvée designates that the wine has been made from the traditional champagne grape varieties of Chardonnay, Pinot Noir and Meunier. Blanc de Blancs indicates that only white grapes have been used, often exclusively Chardonnay.
                         </p>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-5">
+                                            <img src="assets/images/chaprose.jpg" class="card-img" alt="bottle of chapel down rose sparkling wine">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Chapel Down Rose Brut</h5>
+                                                <p>A delicate rosé with aromas of ripe strawberries and raspberries with background notes of toasty shortbread. The palate is focused and pure, its fine mousse contributing to the crisp and fresh style.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-5">
+                                            <img src="assets/images/nyebrut.jpg" class="card-img" alt="bottle of Nyetimber sparkling wine">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Nyetimber Classic Cuvee</h5>
+                                                <p>The signature wine of Nyetimber is a classic blend of Chardonnay, Pinot Noir, and Pinot Meunier and is a perfect balance of elegance and intensity. The blend includes wines from all our vineyards and also from several vintages.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-5">
+                                            <img src="assets/images/balfrose.jpg" class="card-img" alt="bottle of balfour rose sparkling wine">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Balfour Brut Rose 2016</h5>
+                                                <p>Hush Heath’s iconic sparkling rosé is made in small quantities at our state of the art winery in deepest Kent, the Garden of England. Palest pink with crisp English acidity, rich fruit and a refreshingly long finish. Uniquely Balfour.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-5">
+                                            <img src="assets/images/chapbrutnv.jpg" class="card-img" alt="bottle of chapel down nv sparkling wine">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Chapel Down Brut NV</h5>
+                                                <p>An elegant English sparkling wine with aromas of red apple, lemongrass and freshly baked bread together with hints of strawberry and quince on the palate and fine persistent bubbles.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="container-fluid text-center text-md-center">
+            <div class="row">
+                <div class="col-md-4 col-lg-3 mx-auto mt-3 foot-style">
+                    <h5 class="uppercase">Contact</h5>
+                    <ul class="list-inline email-detail bullet">
+                        <li>
+                            <p><i class="fas fa-location-arrow"></i> Unit 1, Green Park</p>
                         </li>
                         <li>
-                        <p><i class="fas fa-phone"></i> + 44 203 123 4567</p>
+                            <p> Reading, RG4 3PZ</p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="mailto:info@english-wine.co.uk"><i class="far fa-envelope"></i> info@english-wine.co.uk</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p><i class="fas fa-phone"></i> + 44 203 123 4567</p>
                         </li>
                     </ul>
-            </div>
-            <div class="col-sm-4 ">
-                <p class="inline-block">
-                    <button class="btn btn-lg btn-foot" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
-                </p>
-            </div>
-            <div class="col-sm-4 foot-style">
-                <h5 class="uppercase">Social</h5>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                </div>
+                <div class="col-sm-4 ">
+                    <p class="inline-block">
+                        <button class="btn btn-lg btn-foot" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                    </p>
+                </div>
+                <div class="col-sm-4 foot-style">
+                    <h5 class="uppercase">Social</h5>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
                             <i class="fab fa-facebook-f" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
                             <i class="fab fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="#">
                             <i class="fab fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                </ul>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sign Up to Stay in Touch!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email Address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address" aria-describedby="emailHelp" required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Password" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="repeatPassword">Repeat Password</label>
+                                <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password" required>
+                            </div>
+                            <button type="submit" class="btn-modal">Submit</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-    </footer>
-     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Sign Up to Stay in Touch!</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email Address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address" aria-describedby="emailHelp" required>
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Password</label>
-                        <input type="password" class="form-control" id="password" placeholder="Password" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="repeatPassword">Repeat Password</label>
-                        <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password" required>
-                    </div>
-                    <button type="submit" class="btn-modal">Submit</button>
-                </form>
-            </div>
-            </div>
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    
-</body>    
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
 </html>
+
