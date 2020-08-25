@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins&display=swap');
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     height: 100%;
-    margin: 0;
     position: relative;
     font-family: 'Mulish', sans-serif;
     color: #fff;;
