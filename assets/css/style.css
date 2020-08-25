@@ -43,7 +43,7 @@ body {
 }
 
 .btn-nav:hover {
-    background: #b9ffe0;
+    background: #ecfff7;
     color: #555;
 }
 
@@ -100,7 +100,7 @@ body {
 }
 
 .btn-title:hover {
-    background:#b9ffe0;
+    background:#ecfff7
     color: #555;
 }
 
@@ -132,7 +132,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background:#b9ffe0;
+    background:#ecfff7;
     color: #555;
 }
 
@@ -150,7 +150,7 @@ footer {
 }
 
 .btn-foot:hover {
-    background: #b9ffe0;
+    background: #ecfff7;
     color: #555;
 }
 
@@ -169,7 +169,7 @@ footer {
 }
 
 .email-detail a:hover {
-    color:#b9ffe0;
+    color:#ecfff7;
 }
 
 .bullet {
@@ -195,7 +195,7 @@ footer {
 }
 
 .about-text a {
-    color: #fff;
+    color: #000;
     text-decoration: underline;
 }
 
