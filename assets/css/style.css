@@ -100,7 +100,7 @@ body {
 }
 
 .btn-title:hover {
-    background:#ecfff7
+    background:#ecfff7;
     color: #555;
 }
 
@@ -169,7 +169,7 @@ footer {
 }
 
 .email-detail a:hover {
-    color:#ecfff7;
+    color:#20ff9e;
 }
 
 .bullet {
@@ -197,19 +197,6 @@ footer {
 .about-text a {
     color: #000;
     text-decoration: underline;
-}
-
-.btn-about {
-    color: #007542;
-    font-size: 24px;
-    font-family: 'Mulish', sans-serif;
-    background-color:#fff;
-    border-radius: 23px;
-}
-
-.btn-about:hover {
-    background: black;
-    color: #fff;
 }
 
 /* Regions */
