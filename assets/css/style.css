@@ -43,7 +43,7 @@ body {
 }
 
 .btn-nav:hover {
-    background: #ecfff7;
+    background: #20ff9e;
     color: #555;
 }
 
@@ -100,7 +100,7 @@ body {
 }
 
 .btn-title:hover {
-    background:#ecfff7;
+    background:#20ff9e;
     color: #555;
 }
 
@@ -132,7 +132,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background:#ecfff7;
+    background:#20ff9e;
     color: #555;
 }
 
@@ -150,7 +150,7 @@ footer {
 }
 
 .btn-foot:hover {
-    background: #ecfff7;
+    background: #20ff9e;
     color: #555;
 }
 
@@ -200,6 +200,13 @@ footer {
 }
 
 /* Regions */
+
+/* Producers */
+
+.email-detail-prod a {
+    color: #000;
+    text-decoration: none;
+}
 
 /* Cards */
 
