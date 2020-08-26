@@ -235,12 +235,12 @@ footer {
     width: 90%;
     height: 280px;
     display: table;
+    object-fit: cover;
 }
 
 .card-body {
     padding: 0;
-    margin-top: 15px;
-    margin-right: 20px;
+    margin: 15px;
 }
 
 /* Producers */
@@ -250,6 +250,7 @@ footer {
 }
 
 /* Wines */
+
 
 #red, #white, #spark {
     padding-top: 50px;
