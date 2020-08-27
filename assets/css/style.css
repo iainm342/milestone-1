@@ -117,7 +117,6 @@ body {
 
 footer {
     background-color: #007542;
-    position: relative;
     width:100%;
     height: 100%;
 }
@@ -231,6 +230,7 @@ footer {
 
 .email-detail-prod a:hover {
     color: #007452;
+    text-decoration: underline;
 }
 
 /* Cards */
@@ -286,6 +286,12 @@ footer {
 .sub-text {
     font-size: 24px;
 }
+
+.wine-title {
+    color: #000;
+    text-decoration: none;
+}
+
 /* Modal */
 
 .modal {
