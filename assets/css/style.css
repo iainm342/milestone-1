@@ -229,6 +229,10 @@ footer {
     text-decoration: none;
 }
 
+.email-detail-prod a:hover {
+    color: #007452;
+}
+
 /* Cards */
 
 .card-title {
