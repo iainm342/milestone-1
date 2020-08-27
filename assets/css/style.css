@@ -24,6 +24,15 @@ body {
     font-size: 18px;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #20ff9e;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #20ff9e;
+    font-weight: bold;
+}
+
 .logo {
     max-width: 100px;
     max-height: 100px;
