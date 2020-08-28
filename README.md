@@ -9,7 +9,7 @@ A website designed to introduce new users to world of Engish Wines but also to a
 The expected users for the site are anyone that has a interest in learning more about English Wine production, current producers looking to find out about new producers entering the market and buyers looking to contact new producers in order to stock their wine.
 
 
-![site display on different screens](assets/images/readmeimages/responsive.jpg)
+![site display on different screens](/assets/images/readmeimages/responsive.jpg)
 
 ### USER STORIES
 
