@@ -10,7 +10,7 @@ This is the first of four Milestone Projects required for the Full Stack Web Dev
 
 ## Contents ##
 
-- [UX (User Experience)](#ux-user-experience)
+- [UX](#ux)
   - [Project Goals](#project-goals)
   - [User Stories](#user-stories)
   - [Design Process](#design-process)
