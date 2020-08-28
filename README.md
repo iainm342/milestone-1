@@ -1,106 +1,177 @@
-# MILESTONE PROJECT ONE
+# CODE INSTITUTE: MILESTONE PROJECT 1
 
-A website designed to introduce new users to world of Engish Wines but also to allow existing producers to keep track of newcomers to the market and to allow suppliers/producers to connect with each other by providing a contacts "directory".
-
-## UX DESIGN
-
-### USERS
-
-The expected users for the site are anyone that has a interest in learning more about English Wine production, current producers looking to find out about new producers entering the market and buyers looking to contact new producers in order to stock their wine.
-
+# ENGLISH WINE: A REFERENCE GUIDE
 
 ![site display on different screens](/assets/images/readme/responsive.png)
 
-### USER STORIES
+This website was designed to give the user a "one stop reference guide" for the wine industry in England. Brief information about the various counties that produce wine, the current producers in the market and the wines available from these producers. 
 
-- Wine enthusiasts wanting to learn more about the regions in England that produce wine.
-- Wine enthusiasts wanting to learn more about the various producers already operating in England.
-- Wine enthusiasts wanting to learn what varietals and styles of wine that are produced in England.
-- Wine enthusiasts wanting to contact the producers to arrange a tasting/buy product.
-- Producers wanting to find out about new producers coming in to the market.
-- Producers wanting to see what wine is being produced these newcomers.
-- Producers wanting contact details for the these new producers.
-- Suppliers looking for new producers/products coming in to the market.
-- Suppliers looking to contact the producers to start a business dialogue.
+This is the first of four Milestone Projects required for the Full Stack Web Development course provided by Code Institute. The main goal for this project was to produce a "static front-end site to present useful information to the users" using HTML and CSS.
 
-# Your Project's Name
+## Contents ##
 
-One or two paragraphs providing an overview of your project.
+- [UX (User Experience)](#ux-user-experience)
+  - [Project Goals](#project-goals)
+  - [User Stories](#user-stories)
+  - [Design Process](#design-process)
+    - [Fonts](#fonts)
+    - [Colours](#colours)
+    - [Wireframes](#wireframes)
+- [Technology Used](#technology-used)
+  - [Languages and Frameworks](#languages-and-frameworks)
+  - [Tools](#tools)
+- [Features](#features)
+- [Testing](#testing)
+- [Deployment](#deployment)
+  - [Cloning Site for Use Locally](#cloning-site-for-use-locally)
+- [Credits](#credits)
+  - [Images](#images)
+  - [Image editing](#image-editing)
+- [Acknowledgements](#acknowledgements)
 
-Essentially, this part is your sales pitch.
- 
-## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## UX  ##
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### Project Goals ###
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+The main aim of this project was to create a website that would give the user a single site to visit that would allow them to access other sites to gain more information, eg Wikipedia and contact details of current wine producers.
 
-## Features
+### User Stories ###
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- As a **new user / customer**, I want to learn more about the regions in England that produce wine.
+- As a **new user / customer**, I want to learn more about the various producers in England and get in touch with them to arrange winery visits.
+- As a **new user / customer**, I want to learn more about the wines currently being produced in England and buy them direct from the producer cutting out the "middle man".
+- As a **producer**, I want to have contact details for my peers in an easy to use website.
+- As a **producer**, I want to see what new wine is being launched on to the market by my peers.
+- As a **wine supplier**, I want to be able to contact producers direct and get that information easily.
+- As a **wine supplier**, I want to be able to see what new wine is being launce on to the market by existing producers.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+[Back to content](#contents)
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+### Design Process ###
 
-### Features Left to Implement
-- Another feature idea
+#### Strategy Plane ####
 
-## Technologies Used
+#### Scope Plane ####
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+#### Structure Plane ####
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+#### Skeleton Plane ####
+
+#### Surface Plane ####
+
+[Back to content](#contents)
+
+##### Fonts #####
+
+I chose the Mulish font family for my headers and the Poppins font family for my body text as I liked the simplicity of their styles. Both fonts were chosen from [Google Fonts](https://fonts.google.com/).
+
+##### Colours #####
+
+I used a "Racing Green" colour for the Navigation Bar and Footer and then used [www.0to255.com](www.0to255.com) to pick complimentary colours to work with for the buttons and cards throughout the project. The black and white image for index.html was used as I felt it gave the site a professional feel. 
+
+##### Wireframes #####
+
+The site mock-ups were designed using [balsamiq wireframes](https://balsamiq.com/). I concentrated on how the different pages would look on different screen resolutions and mapped the corresponding elements on desktop, tablet and mobile screens accordingly. The varietals page changed during the coding process to become wines as I felt that this was more relevant to the various users.
+
+A full version of the wireframes can be seen here.
+
+[Back to contents](#contents)
+
+---  
+
+## Technology Used ##
+
+### Languages and Frameworks ###
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - this was used for the modal form and also for the "scroll up" button to allow the user to return to the top of the screen.  The JS code for this was borrowed from the W3 Schools website after a search to find out how to create this.
+- [jQuery](https://jquery.com/)
+- [Font-Awesome](https://fontawesome.com/icons?d=gallery) - all icons were taken from this site.
+- [Bootstrap](https://getbootstrap.com/) - I relied on Bootstrap for the responsive grid design, carousel and card components.
+- [Google fonts](https://fonts.google.com/) - as previously stated, the fonts used were taken from here.
+- [Popper](https://popper.js.org/)
+- [Popper JS](https://popper.js.org/)
+  
+### Tools ###
+
+- [Git](https://git-scm.com/) - version control and recording of all changes to site during development process
+- [GitHub](https://github.com/) - used for hosting website
+- GitPod - IDE used for code editing. 
+- [Balsamiq](https://balsamiq.com/) - wireframing
+- [Google Fonts](https://fonts.google.com/) - used to select font families
+- [W3C Validator](https://validator.w3.org/) - used to test my HTML to ensure there were no errors
+- [W3C Validator CSS](https://jigsaw.w3.org/css-validator/) - used to test my CSS to ensure there were no errors
+- [0to255.com](www.0to255.com) - color picker
+- [Free Formatter]( https://www.freeformatter.com/html-formatter.html#ad-output) - html formatter to help keep things tidy!
+- [Am I Responsive](http://ami.responsivedesign.is/#) - used to create responsive images for readme.MD
+
+[Back to content](#contents)
+
+---
+
+## Features ##
+
+### Features Implemented ###
 
 
-## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+### Future Features ###
 
 
-## Credits
+### Considered Features ###
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+[Back to content](#contents)
+---
 
-### Media
-- The photos used in this site were obtained from ...
+## Testing ##
 
-### Acknowledgements
+[Back to content](#contents)
+---
 
-- I received inspiration for this project from X
+## Deployment ##
+
+The site is hosted on [GitHub Pages]().
+
+Deployment was achieved by clicking on settings in the repo for the site, scrolling down to the GitHub Pages section, selecting the "master" branch and clicking save. This allowed me to share the site with my peers and make it live.
+
+### Cloning Site for Use Locally ###
+
+[Back to content](#contents)
+
+---
+
+## Credits ##
+
+### Images and Content ###
+
+The images and card, text content used were sourced from various sites:
+
+- [Shutterstock]() - Images only
+- [Nyetimeber]()
+- [Chapel Down]()
+- [Balfour Estate]()
+- [Litmus Wines]()
+- [Astley Vineyard]()
+- [Grange Estate Wines]()
+- [Wikipedia]()
+
+### Image editing ###
+
+- I used the Shutterstock editing tool for the vector image used for the logo and Adobe Photoshop to transform the index.html background image to black and white.
+
+[Back to content](#contents)
+
+---
+
+## Acknowledgements ##
+
+Thank you to the following people:
+
+- My mentor Suen Owonikoko for her time, guidance and putting up with my "wobble" on the first project call...
+- The guys in the class of May 20 on Slack - always there for a chat when needed!
+- My partner, Paul, for putting up with the growing obsession I have towards coding.
+
+[Back to content](#contents)
+
+---
