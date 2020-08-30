@@ -3,15 +3,22 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Bootstrap CDN-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!--Font Awesome CDN-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" />
+        <!--Link to style.css-->
         <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-        <link rel="shortcut icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+        <!--Favicon-->
+        <link rel="shortcut icon" type="image/png" sizes="32x32" href="assets/images/site/favicon-32x32.png">
         <title>English Wine - a Reference Guide</title>
     </head>
     <body>
+        <!--"Back to Top" JS code from W3 Schools-->
         <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="far fa-arrow-alt-circle-up"></i></button>
+         <!--Bootstrap Sticky Header-->
         <header class="sticky-top">
+            <!--NavBar from Bootstrap with styling-->
             <nav class="navbar navbar-expand-lg navbar-light nav-style">
                 <div class="logo">
                     <a class="navbar-brand" href="index.html">
@@ -50,10 +57,12 @@
             </nav>
         </header>
         <main>
+            <!--container for pages-->
             <div class="container-fluid bg-container-pages">
                 <div class="container">
                     <h1 id="about">Why you SHOULD be excited about English Wine!</h1>
                     <div class="row">
+                    <!--embedded video-->
                         <div class="col">
                             <div class="embed-responsive embed-responsive-16by9">
                                 <iframe class="ab-vid" src="https://www.youtube.com/embed/57TyS8wi_jE" allowfullscreen></iframe>
@@ -70,6 +79,7 @@
                         </div>
                     </div>
                 </div>
+                <!--image carousel-->
                 <div class="container car-height">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -100,63 +110,74 @@
                 </div>
                 <div class="container">
                     <div>
+                    <!--<p> with links to site pages-->
                         <p class="about-text">Use this site to find out about the wine <a href="regions.html">regions</a> of England, the current <a href="producers.html">producers</a>, <a href="wines.html">wines</a> that are being made and <a data-target="#signUpModal" data-toggle="modal" class="MainNavText" id="MainNavHelp" 
                             href="#signUpModal">sign up</a> to stay up to date with everything that is happening in the industry.</p>
                     </div>
                 </div>
             </div>
         </main>
-        <footer class="container-fluid text-center text-md-center">
-            <div class="row">
-                <div class="col-md-4 col-lg-3 mx-auto mt-3 foot-style">
-                    <h5 class="uppercase">Contact</h5>
-                    <ul class="list-inline email-detail bullet">
-                        <li>
-                            <p><i class="fas fa-location-arrow"></i> Unit 1, Green Park</p>
-                        </li>
-                        <li>
-                            <p> Reading, RG4 3PZ</p>
-                        </li>
-                        <li>
-                            <p>
-                                <a href="mailto:info@english-wine.co.uk"><i class="far fa-envelope"></i> info@english-wine.co.uk</a>
-                            </p>
-                        </li>
-                        <li>
-                            <p><i class="fas fa-phone"></i> + 44 203 123 4567</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 ">
-                    <p class="inline-block">
-                        <button class="btn btn-lg btn-foot" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
-                    </p>
-                </div>
-                <div class="col-sm-4 foot-style">
-                    <h5 class="uppercase">Social</h5>
-                    <ul class="list-inline social-links">
-                        <li class="list-inline-item">
-                            <a href="http://facebook.com" aria-label="click for IPP on Facebook" target="_blank" >
-                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="http://twitter.com" aria-label="click for IPP on Twitter" target="_blank">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="http://instagram.com" aria-label="click for IPP on Instagram" target="_blank">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                            </a>
-                        </li>
-                    </ul>
+        <!--Footer for all pages-->
+        <footer class="footer mt-auto py-3">
+            <div class="container-fluid text-center text-md-center">
+                <!--Contact info for footer-->
+                <div class="row">
+                    <div class="col-sm-4 foot-style">
+                        <h5 class="uppercase">Contact</h5>
+                        <ul class="list-inline email-detail bullet">
+                            <li>
+                                <p><i class="fas fa-location-arrow"></i> Unit 1, Green Park</p>
+                            </li>
+                            <li>
+                                <p> Reading, RG4 3PZ</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="mailto:info@english-wine.co.uk"><i class="far fa-envelope"></i> info@english-wine.co.uk</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p><i class="fas fa-phone"></i> + 44 203 123 4567</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Footer sign up button-->
+                    <div class="col-sm-4 ">
+                        <p class="inline-block">
+                            <button class="btn btn-lg btn-foot" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                        </p>
+                    </div>
+                    <!--Social Links-->
+                    <div class="col-sm-4 foot-style">
+                        <h5 class="uppercase">Social</h5>
+                        <ul class="list-inline social-links">
+                            <!--Facebook-->
+                            <li class="list-inline-item">
+                                <a href="http://facebook.com" aria-label="click for IPP on Facebook" target="_blank" >
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                                </a>
+                            </li>
+                            <!--Twitter-->
+                            <li class="list-inline-item">
+                                <a href="http://twitter.com" aria-label="click for IPP on Twitter" target="_blank">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                                </a>
+                            </li>
+                            <!--Instagram-->
+                            <li class="list-inline-item">
+                                <a href="http://instagram.com" aria-label="click for IPP on Instagram" target="_blank">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </footer>
+        <!--Modal for Sign Up Form on all Pages-->
         <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -190,10 +211,10 @@
         <script>
             //Get the button W3 Schools - how to....
             var mybutton = document.getElementById("myBtn");
-            
+
             // When the user scrolls down 20px from the top of the document, show the button
             window.onscroll = function() {scrollFunction()};
-            
+
             function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 mybutton.style.display = "block";
@@ -201,16 +222,16 @@
                 mybutton.style.display = "none";
             }
             }
-            
+
             // When the user clicks on the button, scroll to the top of the document
             function topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
             }
         </script>
+        <!--Bootstrap scripts-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </body>
 </html>
-
