@@ -171,6 +171,12 @@ The sites responsiveness was tested by the following methods:
 
 - Chrome Developer Tools were used to test responsiveness on all screen sizes.
 - Physical testing was carried out on Desktop, Tablet and various Mobile devices.
+    - Throughout the whole process I was testing the responsiveness of the site on my laptop, iPhone X and iPad.
+    - Once the site was in a state that I was happy with, I submitted it for Peer review.
+    - I also asked friends and family to have a look at the site from a user perspective, rather than a coder perspective.
+- All links were tested to ensure they worked on all devices.
+- NavBar was tested to ensure it worked on all devices.
+- Modal Form was tested to ensure that all fields required input from the user.
 
 ### <ins>BROWSER COMPATIBILITY</ins>
 
