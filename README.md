@@ -260,6 +260,12 @@ The images and card, text content used were sourced from various sites:
 
 - I used the Shutterstock editing tool for the vector image used for the logo and Adobe Photoshop to transform the index.html background image to black and white.
 
+### <ins>CODING IDEAS</ins>
+
+Knowledge, and inspiration, was taken from the Code Institute projects - Whiskey Drop and Resume - for certain aspects of the site as this was the first time I have written any major piece of code.
+
+W3 Schools for the JS code to install a "Back to Top" button which was then styled with an icon from Font Awesome.
+
 [Back to Contents](#contents)
 
 ---
