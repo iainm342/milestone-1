@@ -72,7 +72,7 @@ I used a "Racing Green" (#007542) colour for the Navigation Bar and Footer and t
 
 ### <ins>WIREFRAMES</ins> ###
 
-The site mock-ups were designed using [Balsamiq wireframes](https://balsamiq.com/). I concentrated on how the different pages would look on different screen resolutions and mapped the corresponding elements on desktop, tablet and mobile screens accordingly. The varietals page changed during the coding process to become wines as I felt that this was more relevant to the various users.
+The site mock-ups were designed using [Balsamiq wireframes](https://balsamiq.com/). A pdf of the wireframe can be found [here](/assets/MSP1-Wireframe.pdf). I concentrated on how the different pages would look on different screen resolutions and mapped the corresponding elements on desktop, tablet and mobile screens accordingly. The varietals page changed during the coding process to become wines as I felt that this was more relevant to the various users.
 
 ### Landing Page ###
 
@@ -145,6 +145,11 @@ The site mock-ups were designed using [Balsamiq wireframes](https://balsamiq.com
  - Embeded video on About page giving information on the process of wine making in England.
  - Carousel images on About page showing "hero" style images.
  - Bootstrap cards which will allow future search functionality. 
+ - Button at bottom of screen to allow user to return to the top of the page without scrolling.
+ - Favicon used in title of web page.
+ - Hover used on all buttons and web/email address links.
+ - Modal form used for sign up along with ability to leave the form if the user doesn't wish to submit at that particular moment in time.
+
 
 ### <ins>FUTURE FEATURES</ins> ###
 
@@ -173,6 +178,7 @@ The site was tested on the following browsers that I have access to:
 
 - Google Chrome
 - Mozilla Firefox
+- Microsoft Edge
 
 ### <ins>CODE VALIDATION</ins>
 
@@ -202,14 +208,17 @@ The site is hosted on [GitHub Pages](https://iainm342.github.io/milestone-1/).
 
 Deployment of the site was achieved by following the steps below:
 
-- opening GitHub
+- opening GitHub in my Google Chrome (or any browser)
+- signing in to GitHub using my username and password
+- selected my repositories
 - navigating to the repo to be deployed (iainm342/milestone-1)
-- clicking on settings
+- clicking on settings in the top navigation bar
 - scrolling down the page until you reach GitHub pages
 - selecting Branch:Master
 - selecting Root 
 - clicking on Save
 - URL generated for use
+- site is now live on [GitHub Pages](https://iainm342.github.io/milestone-1/)
 
 ### <ins>CLONING</ins>
 
@@ -253,7 +262,7 @@ The images and card, text content used were sourced from various sites:
 
 Thank you to the following people:
 
-- My mentor Suen Owonikoko for her time, guidance and putting up with my "wobble" on our first mentor call...
+- My mentor Seun Owonikoko for her time, guidance and putting up with my "wobble" on our first mentor call...
 - The guys in the class of May 20 on Slack - always there for a chat when needed!
 - My partner, Paul, for putting up with the growing obsession I have towards coding.
 
