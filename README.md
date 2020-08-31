@@ -72,7 +72,7 @@ I used a "Racing Green" (#007542) colour for the Navigation Bar and Footer and t
 
 ### <ins>WIREFRAMES</ins> ###
 
-The site mock-ups were designed using [Balsamiq wireframes](https://balsamiq.com/). A pdf of the wireframe can be found [here](/assets/MSP1-Wireframe.pdf). I concentrated on how the different pages would look on different screen resolutions and mapped the corresponding elements on desktop, tablet and mobile screens accordingly. The varietals page changed during the coding process to become wines as I felt that this was more relevant to the various users.
+The site mock-ups were designed using [Balsamiq wireframes](https://balsamiq.com/). A pdf of the wireframe can be found [here](/assets/images/MSP1-Wireframe.pdf). I concentrated on how the different pages would look on different screen resolutions and mapped the corresponding elements on desktop, tablet and mobile screens accordingly. The varietals page changed during the coding process to become wines as I felt that this was more relevant to the various users.
 
 ### Landing Page ###
 
